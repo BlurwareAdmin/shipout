@@ -91,7 +91,7 @@ def enable_apis(name: str = "", all: bool = False ):
          typer.echo(f"{name} enabled" )
 
 @app.command(help="Install Extensions")
-def isntall_extension(name: str = ""):
+def install_extension(name: str = ""):
      subprocess.run([
          'az' , 'extension' ,'add' ,'--name', f'{name}' ,'--upgrade'
          ], stdout=subprocess.DEVNULL)

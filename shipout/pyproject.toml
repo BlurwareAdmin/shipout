@@ -1,12 +1,11 @@
 [tool.poetry]
-name = "nitro"
-version = "0.1.0"
+name = "shipout"
+version = "0.1.2"
 description = ""
 authors = ["BlurwareAdmin <admin@blurware.com>"]
-readme = "../README.md"
 
 [tool.poetry.scripts]
-nitro = "nitro.main:app"
+shipout = "shipout.main:app"
 
 [tool.poetry.dependencies]
 python = "^3.8"
